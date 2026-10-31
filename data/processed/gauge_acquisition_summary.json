@@ -1,0 +1,31 @@
+{
+  "event_window_timezone": "EST",
+  "event_timezone_status": "fixed EST source-inferred; sample verified against NOAA Storm Events",
+  "n_events": 125,
+  "requests": 182,
+  "failed_requests": 5,
+  "n_observations": 166454,
+  "stations": {
+    "01648000": {
+      "obtained_start_utc": "2008-05-11T05:00:00Z",
+      "obtained_end_utc": "2025-07-21T04:45:00Z",
+      "n_observations": 24486,
+      "usable_event_windows": 87,
+      "rejected_missing_values": 0
+    },
+    "01651800": {
+      "obtained_start_utc": "2008-05-11T05:00:00Z",
+      "obtained_end_utc": "2025-07-21T04:58:00Z",
+      "n_observations": 133437,
+      "usable_event_windows": 87,
+      "rejected_missing_values": 0
+    },
+    "8594900": {
+      "obtained_start_utc": "1996-01-18T05:00:00Z",
+      "obtained_end_utc": "2025-07-21T04:00:00Z",
+      "n_observations": 8531,
+      "usable_event_windows": 120,
+      "rejected_missing_values": 12
+    }
+  }
+}

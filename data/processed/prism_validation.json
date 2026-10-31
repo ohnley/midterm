@@ -1,0 +1,10 @@
+{
+  "source_zip_url": "https://data.prism.oregonstate.edu/time_series/us/an/800m/ppt/daily/2019/prism_ppt_us_30s_20190708.zip",
+  "date": "2019-07-08",
+  "cells_compared": 812,
+  "max_abs_difference_mm": 0.005000114440917969,
+  "expected_csv_rounding_mm": 0.005,
+  "native_nonzero_cells": 467,
+  "crs": "EPSG:4269",
+  "native_nodata": -9999
+}

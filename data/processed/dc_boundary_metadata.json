@@ -1,0 +1,7 @@
+{
+  "source": "DC GIS, DC Boundary (PropScan MapServer layer 0)",
+  "source_url": "https://maps2.dcgis.dc.gov/dcgis/rest/services/PropScan/MapServer/0",
+  "download_date": "2026-10-18",
+  "crs": "EPSG:4326",
+  "generalization_degrees": 5e-05
+}

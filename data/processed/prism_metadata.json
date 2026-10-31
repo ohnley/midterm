@@ -1,0 +1,48 @@
+{
+  "source": "PRISM Group, Oregon State University",
+  "source_url": "https://prism.oregonstate.edu/explorer/bulk.php",
+  "access_date": "2026-10-18",
+  "docs_url": "https://prism.oregonstate.edu/documents/PRISM_datasets.pdf",
+  "terms_url": "https://prism.oregonstate.edu/terms/",
+  "citation": "PRISM Group, Oregon State University, https://prism.oregonstate.edu, accessed 18 Oct 2026.",
+  "product": "AN daily precipitation, native 800m / 30 arc-second grid",
+  "resolution_degrees": 0.008333333333333333,
+  "crs": "EPSG:4269",
+  "crs_name": "NAD83 geographic",
+  "units": "mm",
+  "native_nodata": -9999,
+  "output_nodata": "NaN",
+  "global_width": 7025,
+  "global_height": 3105,
+  "global_transform": [
+    0.008333333333,
+    0.0,
+    -125.02083333333351,
+    0.0,
+    -0.008333333333,
+    49.9374999999995
+  ],
+  "crop_row_offset": 1311,
+  "crop_col_offset": 5746,
+  "shape": [
+    479,
+    28,
+    29
+  ],
+  "interpolation": "Off; provider cell values queried at original native cell centers",
+  "precision": "Explorer CSV reports precipitation to 0.01 mm; stored as float32",
+  "validation": "812 native cells checked against PRISM COG on 2019-07-08; maximum absolute difference 0.00500012 mm, consistent with CSV rounding and float32 storage.",
+  "day_definition": "Each label D represents [D-1 12:00 UTC, D 12:00 UTC)",
+  "window_rule": "Keep each full PRISM interval overlapping local begin_date-1 00:00 through end_date+2 00:00. Labels begin_date-1 through end_date+2 inclusive. Do not prorate daily rainfall.",
+  "retrieval": "Official Data Explorer bulk RPC, <=500 cell centers per request; year min/max ranges queried then filtered to union of event dates.",
+  "requested_dates": 479,
+  "complete_dates": 479,
+  "requested_cells": 812,
+  "request_failures": [],
+  "caveats": [
+    "Grid spacing is angular; nominal 800m is not an equal-area square.",
+    "AN81d through 2020 and AN91d from 2021 use different normals; Explorer's generic CSV Dataset header says AN91d even for earlier years.",
+    "Daily estimates cannot resolve subdaily storm timing or rainfall intensity.",
+    "DCGIS boundary is WGS84; native precipitation remains NAD83 without resampling. Datum difference is negligible at this map scale."
+  ]
+}

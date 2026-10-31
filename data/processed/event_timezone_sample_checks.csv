@@ -1,0 +1,20 @@
+event_id,csv_begin,csv_end,match_type,noaa_event_ids,source_timezone,source_url
+E001,1996-01-19 11:00:00,1996-01-19 13:00:00,exact record,5541358,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz
+E002,1996-01-20 07:30:00,1996-01-23 05:00:00,exact record,5541359,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz
+E003,1996-06-18 00:30:00,1996-06-18 02:00:00,exact record,5561204,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz
+E004,1996-06-20 22:00:00,1996-06-20 23:00:00,exact record,5561207,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz
+E005,1996-09-06 12:00:00,1996-09-06 18:00:00,exact record,5572405,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz
+E006,1996-09-07 23:30:00,1996-09-10 00:45:00,exact record,5572407,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz
+E007,1996-11-08 16:00:00,1996-11-08 17:15:00,exact record,5572790,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d1996_c20260323.csv.gz
+E029,2005-01-14 07:15:00,2005-01-14 10:00:00,exact record,5436764,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz
+E030,2005-04-02 11:40:00,2005-04-02 21:00:00,exact record,5450464,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz
+E031,2005-04-03 02:10:00,2005-04-03 03:30:00,exact record,5450465,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz
+E032,2005-07-06 20:00:00,2005-07-07 09:00:00,unmatched,,,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz
+E033,2005-07-08 07:00:00,2005-07-08 08:00:00,exact record,5463724,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz
+E034,2005-10-08 11:00:00,2005-10-08 14:00:00,exact record,5477820,EST,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2005_c20260323.csv.gz
+E092,2019-03-21 18:15:00,2019-03-22 01:35:00,exact record,813548,EST-5,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20260323.csv.gz
+E093,2019-07-08 07:58:00,2019-07-08 13:28:00,merged envelope,842879;842878,EST-5,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20260323.csv.gz
+E094,2019-11-01 02:15:00,2019-11-01 02:15:00,exact record,866387,EST-5,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20260323.csv.gz
+E123,2025-07-09 17:54:00,2025-07-09 18:45:00,merged envelope,1261997;1261998,EST-5,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2025_c20260819.csv.gz
+E124,2025-07-13 13:00:00,2025-07-13 14:05:00,merged envelope,1264198;1264196,EST-5,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2025_c20260819.csv.gz
+E125,2025-07-19 17:00:00,2025-07-19 18:34:00,merged envelope,1264728;1264732;1264769;1264770;1264771;1264768,EST-5,https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2025_c20260819.csv.gz

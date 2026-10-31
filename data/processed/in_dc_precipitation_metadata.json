@@ -1,0 +1,34 @@
+{
+  "station_id": "USC00186350",
+  "station_name": "National Arboretum DC",
+  "latitude": 38.91329,
+  "longitude": -76.97009,
+  "horizontal_crs": "Geographic decimal degrees; datum not specified in retrieved GHCN station listing",
+  "elevation_m": 15.2,
+  "station_detail_url": "https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND%3AUSC00186350/detail",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/all/USC00186350.dly",
+  "inventory_url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/ghcnd-inventory.txt",
+  "format_documentation": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/readme.txt",
+  "variable": "PRCP",
+  "units": "mm",
+  "native_units": "tenths of mm",
+  "sampling": "Daily accumulation; date is source reporting-date label",
+  "timestamp_notes": "Observation hour and accumulation boundaries not established. Do not equate printed date to midnight local, UTC day, or PRISM interval.",
+  "quality_notes": "Raw missing sentinel -9999 becomes empty numeric cell. Blank QFLAG passes source checks. T is trace (numeric zero retained with trace flag); P is missing presumed zero, excluded from usable records. All measurement, quality and source flags retained.",
+  "requested_distinct_dates": 372,
+  "retrieved_numeric_records": 366,
+  "usable_records": 361,
+  "unusable_records": 11,
+  "requested_events": 125,
+  "events_with_usable_data": 125,
+  "fully_covered_events": 117,
+  "measurement_flags": {
+    "T": 23,
+    "": 344,
+    "P": 5
+  },
+  "quality_flags": {
+    "": 372
+  },
+  "retrieved_utc": "2026-10-18T13:14:32.862314+00:00"
+}
