@@ -9,22 +9,22 @@ This project used Python 3.12.14 on MacOS Golden Gate 27.0.1.
 To run the code, open this folder in your terminal and run the following commands:
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python demo.py
+python3 demo.py
 ```
 
-You can find the processed data in the data/processed folder in the dc_flood.h5 file, along with functions, figures and tests. The build_database.py file will recreate everything as needed. 
+You can find the processed data in the data/processed folder in the dc_flood.h5 file, along with functions and figures. The build_database.py file will rebuild the database from the processed data.
 
 To download fresh public data:
 
 ```bash
-python scripts/download_prism.py
-python scripts/download_gauges.py
-python scripts/investigate_dc_precipitation.py
-python build_database.py
-python demo.py
+python3 scripts/download_prism.py
+python3 scripts/download_gauges.py
+python3 scripts/investigate_dc_precipitation.py
+python3 build_database.py
+python3 demo.py
 ```
 
 For your awareness, please note that PRISM is rate-limited.
@@ -36,11 +36,11 @@ For your awareness, please note that PRISM is rate-limited.
 - **PRISM:** This is daily precipitation estimates on a grid with 800m granularity, with precip data in millimeters, reported to 0.01mm accuracy. A data grid labelled with date D represents precipitation accumulated from 12:00 UTC on D−1 to 12:00 UTC on D. 
 - **USGS:** Instantaneous gauge-height observations at Rock Creek / Sherrill Drive (01648000) and Watts Branch (01651800). 
 - **NOAA:** Hourly observed water levels at the Washington station (8594900). 
-- **Independent precipitation-station investigation:** The National Arboretum station (USC00186350) provides water level metrics. 
+- **Independent precipitation-station investigation:** The National Arboretum station (USC00186350) provides precipitation data. 
 
 In the original flood data CSV from Blackboard, there was no time zone information, but it matched up with the NOAA Storm Events data on EST (UTC-5:00) time zone, so we ran with that assumption for this project. 
 
-We use a window from midnight on the day before the event through midnight two days after the event date -- i.e. the whole event and one calendar day on each side.
+We use a window from midnight on the day before the event through midnight two days after the event end -- i.e. the whole event and one calendar day on each side.
 
 ## HDF5 layout
 
@@ -83,7 +83,7 @@ plot_series(event, '01648000', output='stage.png')
 
 The data for this assigned was pulled on October 18, 2026. We have kept all 125 events (1996–2025). Please look at `outputs/coverage_by_event.csv` to see coverage by event/source and in `coverage_by_station_year.csv` you will find the data coverage for the windows around the event. 
 
-Additional information can be found in the markdown files references below as well.
+Additional information can be found in the markdown file references below as well.
 
 ### Final coverage report
 
@@ -117,7 +117,7 @@ We looked at the National Arboretum precipitation station, which is inside DC. T
 
 ## AI acknowledgment
 
-We used OpenAI tools to assist with the scripting for this project, in particular the data pull logic. We also used OpenAI tools to help with environment management and package identification.
+We used OpenAI ChatGPT to assist with the scripting for this project, in particular the data pull logic. We also used OpenAI ChatGPT to help with environment management and package identification.
 
 ## Data Sources
 
